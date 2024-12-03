@@ -1,0 +1,155 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+}
+  
+  .main-container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .sidebar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    width: 200px;
+  }
+  
+  .sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #ecf0f1;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  .nav-item {
+    cursor: pointer;
+    color: #000000;
+  }
+  
+  .nav-item:hover {
+    color: #1abc9c;
+  }
+  
+  .sub-menu {
+    margin-top: 5px;
+    margin-left: 15px;
+    display: none;
+  }
+  
+  .sub-menu .nav-item {
+    font-size: 14px;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ecf0f1;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dialog-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .dialog-box h3 {
+    margin: 0 0 10px;
+    color: #2c3e50;
+  }
+  
+  .dialog-box p {
+    color: #7f8c8d;
+  }
+
+/* ------------------------------------------------------------------------ */
+
+  .container {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* width: 100%; */
+    width: 79.5vw;
+    display: block;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .input-section {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: calc(100% - 100px);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #4cae4c;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    margin: 5px 0;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+  }
+  
+  li button {
+    background: #d9534f;
+    border: none;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  li button:hover {
+    background: #c9302c;
+  }
+  
